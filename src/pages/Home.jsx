@@ -9,7 +9,7 @@ import Product from "./Products/Product";
 const Home = () => {
   const { keyword } = useParams();
   const { data, isLoading, isError } = useGetProductsQuery({ keyword });
-  console.log('1', isError)
+
   return (
     <>
       {!keyword ? <Header /> : null}
