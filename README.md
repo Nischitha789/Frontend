@@ -33,4 +33,4 @@ User Details
 
 
 # Demo video link
-- [![link](https://drive.google.com/file/d/16zDrE-vfY_s-mnwTXzJiLb4tcKjF4MoE/view)]
+- [link](https://drive.google.com/file/d/16zDrE-vfY_s-mnwTXzJiLb4tcKjF4MoE/view)
