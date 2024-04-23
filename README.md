@@ -29,6 +29,7 @@ This is an eCommerce Application designed to facilitate online buying and sellin
 User Details
 - Email:jo123@gmail.com
 - password:jo123
+
 Admin Details
 - Email:nischitha@gmail.com
 - password:nischitha12
