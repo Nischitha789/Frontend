@@ -25,9 +25,12 @@ This is an eCommerce Application designed to facilitate online buying and sellin
 # Live Demo
 - [URL](https://darling-genie-19724a.netlify.app/)
 
+
 ## Demo Logins
 User Details
 - Email:jo123@gmail.com
 - password:jo123
 
 
+# Demo video link
+- [![link](https://drive.google.com/file/d/16zDrE-vfY_s-mnwTXzJiLb4tcKjF4MoE/view)]
