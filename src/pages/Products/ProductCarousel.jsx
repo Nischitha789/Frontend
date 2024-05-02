@@ -15,7 +15,7 @@ import {
 
 const ProductCarousel = () => {
   const { data: products, isLoading, error } = useGetTopProductsQuery();
-  console.log(products);
+  //console.log(products);
 
   const settings = {
     dots: false,
