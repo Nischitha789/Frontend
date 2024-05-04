@@ -101,7 +101,11 @@ const Login = () => {
           </div>
         </div>
 
-       <img src="https://www.sliderrevolution.com/wp-content/uploads/revslider/fashion3.jpg" alt="" class="h-[50rem] w-[45%] xl:block md:hidden sm:hidden rounded-lg"/>
+        <img
+          src="https://paisleyandsparrow.com/wp-content/uploads/2020/06/selling-clothes-online.png"
+          alt=""
+          class="h-[50rem] w-[45%] xl:block md:hidden sm:hidden rounded-lg"
+        />
       </section>
     </div>
   );

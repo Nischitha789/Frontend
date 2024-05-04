@@ -144,7 +144,7 @@ const Register = () => {
       </div>
 
       <img
-        src="https://paisleyandsparrow.com/wp-content/uploads/2020/06/selling-clothes-online.png"
+        src="https://ethicsinfotech.in/uploads/slider/e-commerce-website.png"
         alt=""
         className="h-[50rem] w-[45%] xl:block md:hidden sm:hidden rounded-lg"
       />
