@@ -37,13 +37,10 @@ const Shop = () => {
         const filteredProducts = filteredProductsQuery.data.filter(
           (product) => {
             // Check if the product price includes the entered price filter value
-            if (product.price.toString().includes(priceFilter)) {
-              return true;
-            }
-            if (product.price === Number(priceFilter)) {
-              return true;
-            }
-            return false;
+              if (product.price === Number(priceFilter)) {
+                return true;
+              }
+              return false;
           }
         );
 
