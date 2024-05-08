@@ -36,7 +36,6 @@ const Shop = () => {
         // Filter products based on both checked categories and price filter
         const filteredProducts = filteredProductsQuery.data.filter(
           (product) => {
-            console.log(priceFilter);
             const productPrice = parseInt(priceFilter)
             if (isNaN(productPrice)) {
               return 1;
