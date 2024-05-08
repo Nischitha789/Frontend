@@ -36,11 +36,12 @@ const Shop = () => {
         // Filter products based on both checked categories and price filter
         const filteredProducts = filteredProductsQuery.data.filter(
           (product) => {
+            console.log(priceFilter);
             // Check if the product price includes the entered price filter value
-              if (product.price === Number(priceFilter)) {
-                return true;
-              }
-              return false;
+              return (
+                product.price.toString().includes(priceFilter) ||
+                product.price === parseInt(priceFilter)
+              );
           }
         );
 
