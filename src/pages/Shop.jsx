@@ -37,10 +37,14 @@ const Shop = () => {
         const filteredProducts = filteredProductsQuery.data.filter(
           (product) => {
             console.log(priceFilter);
+            const productPrice = parseInt(priceFilter)
+            if (isNaN(productPrice)) {
+              return 1;
+            } else {
+               return product.price === parseInt(priceFilter);
+            }
             // Check if the product price includes the entered price filter value
-             return (
-               product.price === parseInt(priceFilter)
-             );
+            
           }
         );
 
