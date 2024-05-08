@@ -38,7 +38,7 @@ const Shop = () => {
           (product) => {
             // Check if the product price includes the entered price filter value
             return (
-              product.price.toString().includes(priceFilter) &&
+              product.price.toString().includes(priceFilter) ||
               product.price === parseInt(priceFilter)
             );
           }
