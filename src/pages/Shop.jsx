@@ -39,8 +39,8 @@ const Shop = () => {
             console.log(priceFilter);
             // Check if the product price includes the entered price filter value
               return (
-                product.price.toString().includes(priceFilter) ||
-                product.price === parseInt(priceFilter)
+                product.price.toString().includes(priceFilter) 
+               
               );
           }
         );
